@@ -8,21 +8,35 @@
         android:id="@+id/field1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ff0000"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:background="@color/RED"
+        android:text="Android"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:gravity="center"/>
 
     <TextView
         android:id="@+id/field2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#fff"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:text="Android"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:gravity="center"/>
 
     <TextView
         android:id="@+id/field3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#0000ff"
-        android:layout_weight="1"/>
-
+        android:layout_weight="1"
+        android:text="Android"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:gravity="center"/>
 </LinearLayout>
